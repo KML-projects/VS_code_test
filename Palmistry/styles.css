@@ -1,0 +1,913 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+
+/* Main Style */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#2b2b42),
+    color-stop(20%, #40405c),
+    color-stop(70%, #6f71aa),
+    color-stop(90%, #8a76ab),
+    to(#b491bd)
+  );
+  background: -o-linear-gradient(
+    top,
+    #2b2b42 0%,
+    #40405c 20%,
+    #6f71aa 70%,
+    #8a76ab 90%,
+    #b491bd 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #2b2b42 0%,
+    #40405c 20%,
+    #6f71aa 70%,
+    #8a76ab 90%,
+    #b491bd 100%
+  );
+}
+
+/* Palm Style */
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+a:visited {
+  color: inherit;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+p.tenpt {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 5px;
+}
+
+/* Palm Style */
+
+.hand {
+  -webkit-animation-name: float;
+  animation-name: float;
+  animation-delay: 800ms;
+  -webkit-animation-duration: 14000ms;
+  animation-duration: 14000ms;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.mozHand {
+  transform: translateY(30px);
+  animation: none !important;
+}
+
+.palm {
+  fill: #000000;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.palmfill {
+  fill: #bababa;
+  stroke: none;
+}
+
+/* Text / HTML Style */
+
+.nutext {
+  background: none;
+  -webkit-animation-name: fadeInText;
+  animation-name: fadeInText;
+  -webkit-animation-duration: 1600ms;
+  animation-duration: 1600ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+/* Symbol Style */
+
+.symbol {
+  stroke: #b8b8b8;
+  fill: #b8b8b8;
+}
+
+/* MOUND Style */
+
+.mound {
+  fill: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.fmound {
+  fill: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.moundEX {
+  fill: transparent;
+  cursor: pointer;
+  -webkit-animation-name: fadeInText;
+  animation-name: fadeInText;
+  -webkit-animation-duration: 1600ms;
+  animation-duration: 1600ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+.moundEX:hover {
+  fill: #d4af37;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, fill;
+  -o-transition-property: opacity, fill;
+  transition-property: opacity, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mVenus:hover {
+  stroke: #ffffff;
+  fill: #e78895;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, fill;
+  -o-transition-property: opacity, fill;
+  transition-property: opacity, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.marsPlain:hover {
+  stroke: #ffffff;
+  fill: #f88f77;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mMoon:hover {
+  stroke: #ffffff;
+  fill: #b5ead7;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mPluto:hover {
+  stroke: #ffffff;
+  fill: #766d9c;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mNeptune:hover {
+  stroke: #ffffff;
+  fill: #c7ceea;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.will:hover {
+  stroke: #ffffff;
+  fill: #ff5533;
+  opacity: 0.6;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.logic:hover {
+  stroke: #ffffff;
+  fill: #00aaff;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mApollo:hover {
+  stroke: #ffffff;
+  fill: #f7ce76;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mMercury:hover {
+  stroke: #ffffff;
+  fill: #d1aac7;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mJupiter:hover {
+  stroke: #ffffff;
+  fill: #8accdd;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.mSaturn:hover {
+  stroke: #ffffff;
+  fill: #aace93;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.lowerMars:hover {
+  stroke: #ffffff;
+  fill: #c17368;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.upperMars:hover {
+  stroke: #ffffff;
+  fill: #fbbfb1;
+  opacity: 0.5;
+  -webkit-transition-property: opacity, stroke, fill;
+  -o-transition-property: opacity, stroke, fill;
+  transition-property: opacity, stroke, fill;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+/* Line Style */
+
+.line {
+  stroke: #b8b8b8;
+  stroke-linecap: round;
+  stroke-width: 3px;
+  cursor: pointer;
+}
+
+.tline {
+  stroke: #b8b8b8;
+  stroke-linecap: round;
+  stroke-width: 3px;
+  cursor: pointer;
+}
+
+.marriageLine {
+  stroke: #b8b8b8;
+  stroke-linecap: round;
+  stroke-width: 3px;
+  cursor: pointer;
+}
+
+.bracelette {
+  stroke: #b8b8b8;
+  stroke-linecap: round;
+  stroke-width: 3px;
+  cursor: pointer;
+}
+
+.line:hover {
+  stroke-width: 5px;
+  -webkit-transition-property: opacity, stroke-width;
+  -o-transition-property: opacity, stroke-width;
+  transition-property: opacity, stroke-width;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.line:not(:hover) {
+  stroke-width: 3px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+.lineEXAMPLE {
+  stroke: #b8b8b8;
+  stroke-width: 5px;
+  -webkit-animation-name: fadeInText;
+  animation-name: fadeInText;
+  -webkit-animation-duration: 1600ms;
+  animation-duration: 1600ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  cursor: pointer;
+}
+
+.moundText {
+  -webkit-animation-name: fadeInText;
+  animation-name: fadeInText;
+  -webkit-animation-duration: 1600ms;
+  animation-duration: 1600ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+}
+
+.lineEXAMPLE:hover {
+  stroke: #d4af37;
+  fill: #d4af37;
+  opacity: 0.5;
+  stroke-width: 8px;
+  -webkit-transition-property: opacity, stroke-width;
+  -o-transition-property: opacity, stroke-width;
+  transition-property: opacity, stroke-width;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+/* Interactive Line Style */
+
+.success:hover {
+  stroke: #f9f9ac;
+  opacity: 0.5;
+  stroke-width: 7px;
+  outline-width: 10px;
+  outline-color: red;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.fate:hover {
+  stroke: #f2cb6b;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.head:hover {
+  stroke: #4e93c6;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.life:hover {
+  stroke: #6aa047;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.heart:hover {
+  stroke: #e57fad;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.health:hover {
+  stroke: #b182f4;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.girdleOfVenus:hover {
+  stroke: #f9f9ac;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+.ringOfSolomon:hover {
+  stroke: #99005b;
+  opacity: 0.5;
+  stroke-width: 7px;
+  -webkit-transition-property: stroke-width;
+  -o-transition-property: stroke-width;
+  transition-property: stroke-width;
+  -webkit-transition-delay: 50ms;
+  -o-transition-delay: 50ms;
+  transition-delay: 50ms;
+  -webkit-transition-duration: 1000ms;
+  -o-transition-duration: 1000ms;
+  transition-duration: 1000ms;
+}
+
+/* Star Style */
+
+.stars {
+  -webkit-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: 30000ms;
+  animation-duration: 30000ms;
+}
+
+.safariStars {
+  -webkit-animation-name: none !important;
+  animation-name: none !important;
+}
+
+.safariStars:nth-of-type(even){
+  stroke: #eee8aa;
+  fill: none;
+  -webkit-animation-name: none !important;
+  animation-name:  none !important;
+}
+
+.safariStars:nth-of-type(odd){
+  stroke: #eee8aa;
+  fill: none;
+  -webkit-animation-name: none !important;
+  animation-name:  none !important;
+}
+
+.safariStars:nth-of-type(2n + 5){
+  stroke: pink;
+  fill: none;
+  -webkit-animation-name: none !important;
+  animation-name: none !important;
+}
+
+
+
+polygon:nth-of-type(even) {
+  stroke: #eee8aa;
+  fill: none;
+  -webkit-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 30000ms;
+  animation-duration: 30000ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+polygon:nth-of-type(odd) {
+  -webkit-animation-name: counterrotate;
+  animation-name: counterrotate;
+  -webkit-animation-duration: 25000ms;
+  animation-duration: 25000ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+polygon:nth-of-type(2n + 5) {
+  stroke: pink;
+  fill: none;
+}
+
+.comet {
+  opacity: 0;
+  stroke-width: 0.5px;
+  fill: none;
+  -webkit-animation-name: zoomtwo;
+  animation-name: zoomtwo;
+  -webkit-animation-delay: 70000ms;
+  animation-delay: 70000ms;
+  -webkit-animation-duration: 12000ms;
+  animation-duration: 12000ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.comettwo {
+  opacity: 0;
+  fill: none;
+  stroke-width: 0.5px;
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+  -webkit-animation-delay: 20000ms;
+  animation-delay: 20000ms;
+  -webkit-animation-duration: 12000ms;
+  animation-duration: 12000ms;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.nustarcircs {
+  fill: none;
+}
+
+.nustarcircs:nth-of-type(2n + 3) {
+  stroke: #afeeee;
+  fill: none;
+}
+
+/* Animations */
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  25% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  75% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  100% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  25% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  75% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  100% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+@-webkit-keyframes counterrotate {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+@keyframes counterrotate {
+  0% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-box: fill-box;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+@-webkit-keyframes activeStroke {
+  0% {
+    stroke-width: 10px;
+  }
+  90% {
+    stroke-width: 10px;
+  }
+  100% {
+    stroke-width: 3px;
+  }
+}
+
+@keyframes activeStroke {
+  0% {
+    stroke-width: 10px;
+  }
+  90% {
+    stroke-width: 10px;
+  }
+  100% {
+    stroke-width: 3px;
+  }
+}
+
+@-webkit-keyframes activeStrokeGroup {
+  0% {
+    stroke-width: 8px;
+  }
+  90% {
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-width: 3px;
+  }
+}
+
+@keyframes activeStrokeGroup {
+  0% {
+    stroke-width: 8px;
+  }
+  90% {
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-width: 3px;
+  }
+}
+
+@-webkit-keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.8;
+    -webkit-transform: translate(-1100px, -400px);
+    transform: translate(-1100px, -400px);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: translate(1400px, -200px);
+    transform: translate(1400px, -200px);
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.8;
+    -webkit-transform: translate(-1100px, -400px);
+    transform: translate(-1100px, -400px);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: translate(1400px, -200px);
+    transform: translate(1400px, -200px);
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes zoomtwo {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.8;
+    -webkit-transform: translate(-1100px, 0);
+    transform: translate(-1100px, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: translate(1400px, -200px);
+    transform: translate(1400px, -200px);
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomtwo {
+  0% {
+    opacity: 0;
+  }
+  24% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.8;
+    -webkit-transform: translate(-1100px, 0);
+    transform: translate(-1100px, 0);
+  }
+  75% {
+    opacity: 0.8;
+    -webkit-transform: translate(1400px, -200px);
+    transform: translate(1400px, -200px);
+  }
+  76% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
